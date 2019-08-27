@@ -27,6 +27,16 @@
         <module>ribbon-server</module>
         <module>client-service</module>
         <module>feign-client</module>
+        <module>hystrix-service</module>
+        <module>ch18-1-gateway</module>
+        <module>ch18-1-consumers</module>
+        <module>ch18-1-provider</module>
+        <module>gateway-https</module>
+        <module>fangjia-job</module>
+        <module>swagger-test</module>
+        <module>jiqun</module>
+        <module>guava-Test</module>
+        <module>transaction-mq-service</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -83,6 +93,11 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
         </dependency>
     </dependencies>
 

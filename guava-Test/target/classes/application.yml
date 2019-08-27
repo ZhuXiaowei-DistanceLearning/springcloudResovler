@@ -1,0 +1,9 @@
+spring:
+  redis:
+    port: 6379
+    lettuce:
+      pool:
+        max-wait: 2000 # 最长超时时间
+        max-idle: 8 # 最大连接数
+        max-active: 8
+        min-idle: 0 # 最小连接数

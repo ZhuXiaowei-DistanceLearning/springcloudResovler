@@ -5,13 +5,20 @@ spring:
         - id: jd_route
           uri: http://jd.com:80/
           predicates:
-            - Path=/jd
+            - Cookie=chocolate, ch.p
+
   application:
     name: spring-cloud-gateway
 server:
   port: 8080
+logging:
+  level:
+    org.springframework.cloud.gateway: trace
+    org.springframework.http.server.reactive: debug
+    org.springframework.web.reactive: debug
+    reactor.ipc.nettu: debug
 management:
-  endpoint:
+  endpoints:
     web:
       exposure:
         include: '*'

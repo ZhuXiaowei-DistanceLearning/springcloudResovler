@@ -6,22 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-zone1a" />
+        <module name="ch18-1-provider" />
+        <module name="eureka-server-peer3" />
+        <module name="eureka-server-peer2" />
+        <module name="hystrix-service" />
         <module name="gateway" />
-        <module name="eureka-server" />
-        <module name="feign-client" />
         <module name="eureka-client" />
-        <module name="client-service" />
         <module name="my-eureka" />
         <module name="zuul-server" />
-        <module name="my-feign" />
-        <module name="eureka-server-peer2" />
-        <module name="eureka-server-peer1" />
+        <module name="ch18-1-consumers" />
+        <module name="feign-client" />
+        <module name="swagger-test" />
+        <module name="fangjia-job" />
+        <module name="transaction-mq-service" />
         <module name="ribbon-server" />
-        <module name="eureka-server-peer3" />
+        <module name="eureka-server" />
+        <module name="eureka-server-peer1" />
+        <module name="client-service" />
+        <module name="eureka-zone1a" />
+        <module name="guava-Test" />
+        <module name="gateway-https" />
+        <module name="jiqun" />
+        <module name="ch18-1-gateway" />
+        <module name="my-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ch18-1-consumers" target="1.8" />
+      <module name="ch18-1-gateway" target="1.8" />
+      <module name="ch18-1-provider" target="1.8" />
       <module name="client-service" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
@@ -29,17 +42,27 @@
       <module name="eureka-server-peer2" target="1.8" />
       <module name="eureka-server-peer3" target="1.8" />
       <module name="eureka-zone1a" target="1.8" />
+      <module name="fangjia-job" target="1.8" />
       <module name="feign-client" target="1.8" />
       <module name="gateway" target="1.8" />
+      <module name="gateway-https" target="1.8" />
+      <module name="guava-Test" target="1.8" />
+      <module name="hystrix-service" target="1.8" />
+      <module name="jiqun" target="1.8" />
       <module name="my-eureka" target="1.8" />
       <module name="my-feign" target="1.8" />
       <module name="my-springcloud" target="1.8" />
       <module name="ribbon-server" target="1.8" />
+      <module name="swagger-test" target="1.8" />
+      <module name="transaction-mq-service" target="1.8" />
       <module name="zuul-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ch18-1-consumers" options="-parameters" />
+      <module name="ch18-1-gateway" options="-parameters" />
+      <module name="ch18-1-provider" options="-parameters" />
       <module name="client-service" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
@@ -47,11 +70,18 @@
       <module name="eureka-server-peer2" options="-parameters" />
       <module name="eureka-server-peer3" options="-parameters" />
       <module name="eureka-zone1a" options="-parameters" />
+      <module name="fangjia-job" options="-parameters" />
       <module name="feign-client" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="gateway-https" options="-parameters" />
+      <module name="guava-Test" options="-parameters" />
+      <module name="hystrix-service" options="-parameters" />
+      <module name="jiqun" options="-parameters" />
       <module name="my-eureka" options="-parameters" />
       <module name="my-feign" options="-parameters" />
       <module name="ribbon-server" options="-parameters" />
+      <module name="swagger-test" options="-parameters" />
+      <module name="transaction-mq-service" options="-parameters" />
       <module name="zuul-server" options="-parameters" />
     </option>
   </component>

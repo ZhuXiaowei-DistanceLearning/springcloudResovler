@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ch18-1-consumers/ch18-1-consumers.iml" filepath="$PROJECT_DIR$/ch18-1-consumers/ch18-1-consumers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch18-1-gateway/ch18-1-gateway.iml" filepath="$PROJECT_DIR$/ch18-1-gateway/ch18-1-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch18-1-provider/ch18-1-provider.iml" filepath="$PROJECT_DIR$/ch18-1-provider/ch18-1-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-service/client-service.iml" filepath="$PROJECT_DIR$/client-service/client-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
@@ -9,12 +12,19 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-server-peer2/eureka-server-peer2.iml" filepath="$PROJECT_DIR$/eureka-server-peer2/eureka-server-peer2.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-peer3/eureka-server-peer3.iml" filepath="$PROJECT_DIR$/eureka-server-peer3/eureka-server-peer3.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-zone1a/eureka-zone1a.iml" filepath="$PROJECT_DIR$/eureka-zone1a/eureka-zone1a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fangjia-job/fangjia-job.iml" filepath="$PROJECT_DIR$/fangjia-job/fangjia-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign-client/feign-client.iml" filepath="$PROJECT_DIR$/feign-client/feign-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-https/gateway-https.iml" filepath="$PROJECT_DIR$/gateway-https/gateway-https.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guava-Test/guava-Test.iml" filepath="$PROJECT_DIR$/guava-Test/guava-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-service/hystrix-service.iml" filepath="$PROJECT_DIR$/hystrix-service/hystrix-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jiqun/jiqun.iml" filepath="$PROJECT_DIR$/jiqun/jiqun.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-eureka/my-eureka.iml" filepath="$PROJECT_DIR$/my-eureka/my-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-feign/my-feign.iml" filepath="$PROJECT_DIR$/my-feign/my-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-springcloud.iml" filepath="$PROJECT_DIR$/my-springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-server/ribbon-server.iml" filepath="$PROJECT_DIR$/ribbon-server/ribbon-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swagger-test/swagger-test.iml" filepath="$PROJECT_DIR$/swagger-test/swagger-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transaction-mq-service/transaction-mq-service.iml" filepath="$PROJECT_DIR$/transaction-mq-service/transaction-mq-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />
     </modules>
   </component>

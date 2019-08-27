@@ -4,14 +4,23 @@ spring:
       routes:
         - id: jd_route
           uri: http://jd.com:80/
+#          predicates:
+#            - Path=/jd
+#            - After=2019-07-21T22:30:15.854+08:00[Asia/Shanghai]
           predicates:
-            - Path=/jd
+            - Before=2022-03-13T00:54:30.877+08:00[Asia/Shanghai]
   application:
     name: spring-cloud-gateway
 server:
   port: 8080
+logging:
+  level:
+    org.springframework.cloud.gateway: trace
+    org.springframework.http.server.reactive: debug
+    org.springframework.web.reactive: debug
+    reactor.ipc.nettu: debug
 management:
-  endpoint:
+  endpoints:
     web:
       exposure:
         include: '*'
