@@ -1,0 +1,9 @@
+server:
+ssl:
+  key-alias: spring
+  enabled: true
+  key-password: spring
+  key-store: classpath:selfsigned.jks
+  key-store-type: JKS
+  key-store-provider: SUN
+  key-store-passowrd: spring

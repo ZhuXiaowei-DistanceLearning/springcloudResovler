@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/al-nacos/al-nacos.iml" filepath="$PROJECT_DIR$/al-nacos/al-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ali-sentinel/ali-sentinel.iml" filepath="$PROJECT_DIR$/ali-sentinel/ali-sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch18-1-consumers/ch18-1-consumers.iml" filepath="$PROJECT_DIR$/ch18-1-consumers/ch18-1-consumers.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch18-1-gateway/ch18-1-gateway.iml" filepath="$PROJECT_DIR$/ch18-1-gateway/ch18-1-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch18-1-provider/ch18-1-provider.iml" filepath="$PROJECT_DIR$/ch18-1-provider/ch18-1-provider.iml" />
@@ -23,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/my-feign/my-feign.iml" filepath="$PROJECT_DIR$/my-feign/my-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-springcloud.iml" filepath="$PROJECT_DIR$/my-springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-server/ribbon-server.iml" filepath="$PROJECT_DIR$/ribbon-server/ribbon-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shard-jdbc/shard-jdbc.iml" filepath="$PROJECT_DIR$/shard-jdbc/shard-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/swagger-test/swagger-test.iml" filepath="$PROJECT_DIR$/swagger-test/swagger-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/transaction-mq-service/transaction-mq-service.iml" filepath="$PROJECT_DIR$/transaction-mq-service/transaction-mq-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />

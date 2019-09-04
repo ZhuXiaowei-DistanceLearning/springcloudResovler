@@ -1,0 +1,42 @@
+sharding:
+  jdbc:
+    dataSource:
+      names: ds-master,ds-slave
+      # 配置主库
+      ds-master: #org.apache.tomcat.jdbc.pool.DataSource
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/ds_3?useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&useSSL=false&serverTimezone=GMT
+        username: root
+        password: 123456
+        #最大连接数
+        maxPoolSize: 20
+      ds-slave:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/ds_4?useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&useSSL=false&serverTimezone=GMT
+        username: root
+        password: 123456
+          #最大连接数
+        maxPoolSize: 20
+    config:
+      sharding:
+        tables:
+          user:
+            # 真实数据节点，由数据源名+表名组成，以小数点分割，多个表用逗号分割，支持inline表达式
+            actual-data-nodes: ds-master.user_$->{0..3},ds-slave.user_$->{0..3},
+            table-strategy:
+              standard:
+                precise-algorithm-class-name: com.zxw.config.UserSingleKey
+                sharding-column: id
+        default-database-strategy:
+          standard:
+            sharding-column: city
+            precise-algorithm-class-name: com.zxw.config.SingleKeyDbShardingAlgorithm
+    #              inline:
+    #                # 分片字段配置
+    #                sharding-column: id
+    #                # 分片算法表达式
+    #                algorithm-expression: user_$->{id.longValue() % 4}
+    props:
+      sql: # 开启SQL显示，默认值: false，注意：仅配置读写分离时不会打印日志！！！

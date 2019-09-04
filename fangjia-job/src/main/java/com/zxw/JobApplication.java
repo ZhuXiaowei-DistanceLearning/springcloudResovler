@@ -11,13 +11,13 @@ import java.util.concurrent.CountDownLatch;
  * @date 2019/8/26 21:46
  */
 @SpringBootApplication
+@ImportResource(locations = { "classpath:applicationContext.xml" })
 public class JobApplication {
     public static void main(String[] args) {
         new SpringApplicationBuilder().sources(JobApplication.class).web(false).run(args);
         try {
             new CountDownLatch(1).await();
         } catch (InterruptedException e) {
-            e.printStackTrace();
         }
     }
 }

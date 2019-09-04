@@ -37,6 +37,9 @@
         <module>jiqun</module>
         <module>guava-Test</module>
         <module>transaction-mq-service</module>
+        <module>shard-jdbc</module>
+        <module>al-nacos</module>
+        <module>ali-sentinel</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

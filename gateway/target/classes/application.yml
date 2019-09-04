@@ -4,11 +4,9 @@ spring:
       routes:
         - id: jd_route
           uri: http://jd.com:80/
-#          predicates:
-#            - Path=/jd
-#            - After=2019-07-21T22:30:15.854+08:00[Asia/Shanghai]
           predicates:
-            - Before=2022-03-13T00:54:30.877+08:00[Asia/Shanghai]
+            - Cookie=chocolate, ch.p
+
   application:
     name: spring-cloud-gateway
 server:
