@@ -2,38 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e97da9d9-4e56-46b7-ba7b-0f34189b71eb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_8_0_201706111038_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_0_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnofig-test/cnofig-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnofig-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnofig-test/src/main/java/com/zxw/ConfigGitApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnofig-test/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_registry_prometheus_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_common_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_core_1_4_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_servlet_1_4_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_4_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_log4j2_4_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_4_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_4_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_4_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_4_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_4_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_4_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_4_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_4_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_metrics_prometheus_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_ui_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_server_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_ui_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka11_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_collector_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_3_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_3_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_undertow_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_2_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sleuth-A/Sleuth-A.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sleuth-A/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sleuth-A/src/main/java/com/zxw/ZipServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sleuth-A/src/main/java/com/zxw/controller/SleuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sleuth-A/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sleuth-B/Sleuth-B.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sleuth-B/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/SleuthApplicationB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/controller/SleuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/service/ServiceAClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sleuth-B/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/config-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/com/zxw/ClientConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/com/zxw/config/ConfigInfoProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/com/zxw/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/src/main/java/com/zxw/ZipkinServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/zipkin-server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/al-nacos/target/classes/com/zxw/NacosApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/al-nacos/target/classes/com/zxw/controller/ConfigController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnofig-test/cnofig-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cnofig-test/cnofig-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnofig-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cnofig-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnofig-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cnofig-test/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnofig-test/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cnofig-test/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,6 +104,10 @@
     <ignored path="$PROJECT_DIR$/al-nacos/target/" />
     <ignored path="$PROJECT_DIR$/ali-sentinel/target/" />
     <ignored path="$PROJECT_DIR$/cnofig-test/target/" />
+    <ignored path="$PROJECT_DIR$/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/Sleuth-A/target/" />
+    <ignored path="$PROJECT_DIR$/Sleuth-B/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,33 +132,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/al-nacos/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Sleuth-A/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+            <state relative-caret-position="307">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ali-sentinel/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Sleuth-A/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zipkin-server/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="293">
+              <caret line="25" column="21" selection-start-line="14" selection-start-column="7" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ali-sentinel/src/main/java/com/zxw/SentinelApplication.java">
+        <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="11" column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -124,74 +169,80 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+            <state relative-caret-position="1057">
+              <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cnofig-test/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/Sleuth-A/src/main/java/com/zxw/ZipServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cnofig-test/src/main/java/com/zxw/ConfigGitApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+            <state relative-caret-position="258">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cnofig-test/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="458">
+                <caret line="1736" selection-start-line="1736" selection-end-line="1736" />
+                <folding>
+                  <element signature="imports" expanded="true" />
+                  <element signature="imports" expanded="true" />
+                  <element signature="imports" expanded="true" />
+                  <element signature="e#437#438#0" expanded="true" />
+                  <element signature="e#462#463#0" expanded="true" />
+                  <element signature="e#497#498#0" expanded="true" />
+                  <element signature="e#525#526#0" expanded="true" />
+                  <element signature="e#560#561#0" expanded="true" />
+                  <element signature="e#592#593#0" expanded="true" />
+                  <element signature="e#641#642#0" expanded="true" />
+                  <element signature="e#683#684#0" expanded="true" />
+                  <element signature="e#717#718#0" expanded="true" />
+                  <element signature="e#748#749#0" expanded="true" />
+                  <element signature="e#795#796#0" expanded="true" />
+                  <element signature="e#835#836#0" expanded="true" />
+                  <element signature="imports" expanded="true" />
+                  <element signature="e#0#242#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/al-nacos/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/service/ServiceAClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="250">
+              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/NacosApplication.java">
+        <entry file="file://$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/controller/SleuthApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/controller/ConfigController.java">
+        <entry file="file://$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/SleuthApplicationB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -219,6 +270,7 @@
       <find>druid</find>
       <find>elasticJobLog</find>
       <find>//config</find>
+      <find>gitee</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -227,29 +279,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/swagger-test/src/main/java/com/zxw/swagger/config/WebSecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/swagger-test/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/swagger-test/pom.xml" />
-        <option value="$PROJECT_DIR$/swagger-test/src/main/java/com/zxw/swagger/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/jiqun/pom.xml" />
-        <option value="$PROJECT_DIR$/jiqun/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/jiqun/src/main/java/com/zxw/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/guava-Test/src/main/java/com/zxw/config/pojo/Person.java" />
-        <option value="$PROJECT_DIR$/guava-Test/pom.xml" />
-        <option value="$PROJECT_DIR$/guava-Test/src/main/java/com/zxw/config/mapper/PersonRepositroy.java" />
-        <option value="$PROJECT_DIR$/guava-Test/src/main/java/com/zxw/pojo/Person.java" />
-        <option value="$PROJECT_DIR$/guava-Test/src/main/java/com/zxw/config/controller/PersonController.java" />
-        <option value="$PROJECT_DIR$/guava-Test/src/main/java/com/zxw/config/Cache.java" />
-        <option value="$PROJECT_DIR$/guava-Test/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/guava-Test/src/main/java/com/zxw/redis/bloom.java" />
-        <option value="$PROJECT_DIR$/transaction-mq-service/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/config/DuridConfig.java" />
-        <option value="$PROJECT_DIR$/shard-jdbc/src/main/resources/mybatis/mapper/EmployeeMapper.xml" />
-        <option value="$PROJECT_DIR$/shard-jdbc/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/JdbcApplication.java" />
-        <option value="$PROJECT_DIR$/shard-jdbc/pom.xml" />
-        <option value="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/config/ShardingMasterSlaveConfig.java" />
         <option value="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/service/UserService.java" />
         <option value="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/config/UserSingleKey.java" />
         <option value="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/controller/UserController.java" />
@@ -275,9 +304,32 @@
         <option value="$PROJECT_DIR$/ali-sentinel/pom.xml" />
         <option value="$PROJECT_DIR$/ali-sentinel/src/main/java/com/zxw/SentinelApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cnofig-test/pom.xml" />
         <option value="$PROJECT_DIR$/cnofig-test/src/main/java/com/zxw/ConfigGitApplication.java" />
+        <option value="$PROJECT_DIR$/config-client/src/main/java/com/zxw/ClientConfigApplication.java" />
+        <option value="$PROJECT_DIR$/config-client/src/main/java/com/zxw/controller/ConfigClientController.java" />
+        <option value="$PROJECT_DIR$/config-client/src/main/java/com/zxw/config/ConfigInfoProperties.java" />
+        <option value="$PROJECT_DIR$/cnofig-test/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/src/main/resources/boostartp.yml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
         <option value="$PROJECT_DIR$/cnofig-test/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/Sleuth-A/src/main/java/com/zxw/service/ServiceAClient.java" />
+        <option value="$PROJECT_DIR$/Sleuth-B/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Sleuth-B/pom.xml" />
+        <option value="$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/service/ServiceAClient.java" />
+        <option value="$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/SleuthApplicationA.java" />
+        <option value="$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/controller/SleuthApplication.java" />
+        <option value="$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/SleuthApplicationB.java" />
+        <option value="$PROJECT_DIR$/Sleuth-A/src/main/java/com/zxw/SleuthApplicationA.java" />
+        <option value="$PROJECT_DIR$/Sleuth-A/src/main/java/com/zxw/controller/SleuthApplication.java" />
+        <option value="$PROJECT_DIR$/Sleuth-A/src/main/java/com/zxw/ZipServerApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/java/com/zxw/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Sleuth-A/pom.xml" />
+        <option value="$PROJECT_DIR$/Sleuth-A/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -300,20 +352,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cnofig-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="zipkin-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cnofig-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shard-jdbc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="shard-jdbc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="zipkin-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -345,25 +388,25 @@
             <path>
               <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cnofig-test" type="462c0819:PsiDirectoryNode" />
+              <item name="Sleuth-A" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cnofig-test" type="462c0819:PsiDirectoryNode" />
+              <item name="Sleuth-A" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cnofig-test" type="462c0819:PsiDirectoryNode" />
+              <item name="Sleuth-A" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cnofig-test" type="462c0819:PsiDirectoryNode" />
+              <item name="Sleuth-A" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -371,7 +414,7 @@
             <path>
               <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cnofig-test" type="462c0819:PsiDirectoryNode" />
+              <item name="Sleuth-A" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -380,7 +423,50 @@
             <path>
               <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cnofig-test" type="462c0819:PsiDirectoryNode" />
+              <item name="Sleuth-A" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zxw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -405,7 +491,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/al-nacos/src/main/java/com/zxw" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fangjia-job" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Sleuth-B/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/English soft/Nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -420,11 +506,11 @@
       <recent name="com.zxw.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\IDEA CODE\my-springcloud\Sleuth-B\src\main\java" />
       <recent name="D:\code\IDEA CODE\my-springcloud\fangjia-job" />
       <recent name="D:\code\IDEA CODE\my-springcloud\fangjia-job\src\main\resources" />
       <recent name="D:\code\IDEA CODE\my-springcloud\shard-jdbc\src\main\resources" />
       <recent name="D:\code\IDEA CODE\my-springcloud\ch18-1-consumers\src\main\java" />
-      <recent name="D:\code\IDEA CODE\my-springcloud\ch18-1-provider\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -444,7 +530,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigGitApplication">
+  <component name="RunManager" selected="Spring Boot.ZipServerApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -549,6 +635,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClientConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxw.ClientConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigGitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cnofig-test" />
       <extension name="coverage">
@@ -617,19 +716,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="fangjia-job" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fangjia.job.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fangjia.job.JobApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="fangjia-job" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxw.JobApplication" />
@@ -637,28 +723,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="NacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="al-nacos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zxw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxw.NacosApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NacosConfigApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="al-nacos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zxw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxw.NacosConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -666,6 +733,13 @@
     <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ch18-1-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="zxw.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthApplicationA (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Sleuth-B" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="zxw.SleuthApplicationB" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -687,6 +761,26 @@
     <configuration name="SwaggerTest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="swagger-test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxw.swagger.SwaggerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Sleuth-A" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxw.ZipServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxw.ZipkinServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -746,19 +840,20 @@
       <item itemvalue="Spring Boot.JdbcApplication" />
       <item itemvalue="Spring Boot.SpringCloudGatewayApplication" />
       <item itemvalue="Spring Boot.ProviderApplication" />
-      <item itemvalue="Spring Boot.JobApplication (1)" />
-      <item itemvalue="Spring Boot.NacosConfigApplication (1)" />
-      <item itemvalue="Spring Boot.NacosApplication" />
       <item itemvalue="Spring Boot.SwaggerTest" />
+      <item itemvalue="Spring Boot.SleuthApplicationA (1)" />
+      <item itemvalue="Spring Boot.NacosApplication" />
+      <item itemvalue="Spring Boot.ZipkinServerApplication" />
       <item itemvalue="Spring Boot.ConfigGitApplication" />
+      <item itemvalue="Spring Boot.ClientConfigApplication" />
+      <item itemvalue="Spring Boot.ZipServerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ZipServerApplication" />
+        <item itemvalue="Spring Boot.ClientConfigApplication" />
         <item itemvalue="Spring Boot.ConfigGitApplication" />
         <item itemvalue="Application.SentinelApplication" />
-        <item itemvalue="Spring Boot.NacosApplication" />
-        <item itemvalue="Spring Boot.NacosConfigApplication (1)" />
-        <item itemvalue="Spring Boot.JobApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -807,12 +902,14 @@
       <workItem from="1567599265471" duration="5210000" />
       <workItem from="1567646985975" duration="153000" />
       <workItem from="1567672208893" duration="662000" />
-      <workItem from="1567684720654" duration="1852000" />
+      <workItem from="1567684720654" duration="6211000" />
+      <workItem from="1567690983946" duration="1606000" />
+      <workItem from="1567692635361" duration="102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83096000" />
+    <option name="totallyTimeSpent" value="89163000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -827,7 +924,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.42669585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44091904" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -838,7 +935,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32845894" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32739422" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -850,7 +947,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3295838" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32628062" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32516703" />
       <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.36782902" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -863,7 +960,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Properties" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
-      <window_info anchor="right" id="Maven" order="11" weight="0.2603939" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.5328227" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -926,163 +1023,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="672">
-            <caret line="861" column="13" selection-start-line="861" selection-start-column="13" selection-end-line="861" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swagger-test/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="314" column="37" selection-start-line="314" selection-start-column="37" selection-end-line="314" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10.jar!/com/alibaba/druid/pool/DruidDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.24/mysql-connector-java-5.1.24-sources.jar!/com/mysql/jdbc/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shard-jdbc/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shard-jdbc/src/main/resources/mybatis/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.1/mybatis-plus-core-3.1.1.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.1.1/mybatis-plus-annotation-3.1.1.jar!/com/baomidou/mybatisplus/annotation/TableId.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shard-jdbc/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="578" column="75" selection-start-line="578" selection-start-column="75" selection-end-line="578" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shard-jdbc/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="67" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.1/mybatis-plus-core-3.1.1.jar!/com/baomidou/mybatisplus/core/executor/MybatisSimpleExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="201" selection-start-line="201" selection-end-line="201" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingsphere/sharding-jdbc/3.0.0.M3/sharding-jdbc-3.0.0.M3.jar!/io/shardingsphere/core/jdbc/core/statement/ShardingPreparedStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/shardingsphere/sharding-core/3.0.0.M3/sharding-core-3.0.0.M3.jar!/io/shardingsphere/core/routing/strategy/standard/StandardShardingStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shard-jdbc/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/config/SingleKeyDbShardingAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/config/ShardingMasterSlaveConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/config/UserSingleKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1273,22 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnofig-test/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cnofig-test/src/main/java/com/zxw/ConfigGitApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1301,10 +1225,212 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/zxw/controller/ConfigClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/zxw/ClientConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/zxw/config/ConfigInfoProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnofig-test/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cnofig-test/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sleuth-B/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sleuth-B/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sleuth-A/src/main/java/com/zxw/SleuthApplicationA.java" />
+    <entry file="file://$PROJECT_DIR$/Sleuth-A/src/main/java/com/zxw/service/ServiceAClient.java" />
+    <entry file="file://$PROJECT_DIR$/Sleuth-A/src/main/java/com/zxw/controller/SleuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/java/com/zxw/ZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/service/ServiceAClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/controller/SleuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sleuth-B/src/main/java/zxw/SleuthApplicationB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1057">
+          <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="25" column="21" selection-start-line="14" selection-start-column="7" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <caret line="11" column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sleuth-A/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sleuth-A/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sleuth-A/src/main/java/com/zxw/ZipServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="458">
+            <caret line="1736" selection-start-line="1736" selection-end-line="1736" />
+            <folding>
+              <element signature="imports" expanded="true" />
+              <element signature="imports" expanded="true" />
+              <element signature="imports" expanded="true" />
+              <element signature="e#437#438#0" expanded="true" />
+              <element signature="e#462#463#0" expanded="true" />
+              <element signature="e#497#498#0" expanded="true" />
+              <element signature="e#525#526#0" expanded="true" />
+              <element signature="e#560#561#0" expanded="true" />
+              <element signature="e#592#593#0" expanded="true" />
+              <element signature="e#641#642#0" expanded="true" />
+              <element signature="e#683#684#0" expanded="true" />
+              <element signature="e#717#718#0" expanded="true" />
+              <element signature="e#748#749#0" expanded="true" />
+              <element signature="e#795#796#0" expanded="true" />
+              <element signature="e#835#836#0" expanded="true" />
+              <element signature="imports" expanded="true" />
+              <element signature="e#0#242#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

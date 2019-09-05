@@ -6,33 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
-        <module name="ch18-1-provider" />
+        <module name="eureka-server-peer1" />
+        <module name="eureka-zone1a" />
+        <module name="Sleuth-B" />
+        <module name="gateway-https" />
+        <module name="swagger-test" />
+        <module name="al-nacos" />
+        <module name="my-eureka" />
+        <module name="transaction-mq-service" />
+        <module name="Sleuth-A" />
+        <module name="zipkin-server" />
+        <module name="config-client" />
+        <module name="fangjia-job" />
+        <module name="guava-Test" />
+        <module name="my-feign" />
+        <module name="ch18-1-gateway" />
         <module name="cnofig-test" />
+        <module name="shard-jdbc" />
+        <module name="jiqun" />
+        <module name="eureka-server" />
+        <module name="hystrix-service" />
+        <module name="feign-client" />
+        <module name="ali-sentinel" />
+        <module name="ch18-1-consumers" />
+        <module name="ch18-1-provider" />
+        <module name="zuul-server" />
+        <module name="client-service" />
+        <module name="gateway" />
+        <module name="ribbon-server" />
         <module name="eureka-server-peer3" />
         <module name="eureka-server-peer2" />
-        <module name="hystrix-service" />
-        <module name="gateway" />
-        <module name="ali-sentinel" />
-        <module name="al-nacos" />
         <module name="eureka-client" />
-        <module name="my-eureka" />
-        <module name="zuul-server" />
-        <module name="shard-jdbc" />
-        <module name="ch18-1-consumers" />
-        <module name="feign-client" />
-        <module name="swagger-test" />
-        <module name="transaction-mq-service" />
-        <module name="ribbon-server" />
-        <module name="fangjia-job" />
-        <module name="eureka-server-peer1" />
-        <module name="client-service" />
-        <module name="eureka-zone1a" />
-        <module name="guava-Test" />
-        <module name="gateway-https" />
-        <module name="jiqun" />
-        <module name="ch18-1-gateway" />
-        <module name="my-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -43,6 +47,7 @@
       <module name="ch18-1-provider" target="1.8" />
       <module name="client-service" target="1.8" />
       <module name="cnofig-test" target="1.8" />
+      <module name="config-client" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server-peer1" target="1.8" />
@@ -61,13 +66,18 @@
       <module name="my-springcloud" target="1.8" />
       <module name="ribbon-server" target="1.8" />
       <module name="shard-jdbc" target="1.8" />
+      <module name="Sleuth-A" target="1.8" />
+      <module name="Sleuth-B" target="1.8" />
       <module name="swagger-test" target="1.8" />
       <module name="transaction-mq-service" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
       <module name="zuul-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Sleuth-A" options="-parameters" />
+      <module name="Sleuth-B" options="-parameters" />
       <module name="al-nacos" options="-parameters" />
       <module name="ali-sentinel" options="-parameters" />
       <module name="ch18-1-consumers" options="-parameters" />
@@ -75,6 +85,7 @@
       <module name="ch18-1-provider" options="-parameters" />
       <module name="client-service" options="-parameters" />
       <module name="cnofig-test" options="-parameters" />
+      <module name="config-client" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server-peer1" options="-parameters" />
@@ -94,6 +105,7 @@
       <module name="shard-jdbc" options="-parameters" />
       <module name="swagger-test" options="-parameters" />
       <module name="transaction-mq-service" options="-parameters" />
+      <module name="zipkin-server" options="-parameters" />
       <module name="zuul-server" options="-parameters" />
     </option>
   </component>

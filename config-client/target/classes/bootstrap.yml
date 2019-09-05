@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      label: master # 请求哪个分支
+      url: http://localhost:8888 # 请求server的地址
+      profile: dev # 代表哪个分支的文件，例如dev
+      name: config-into # 请求哪个名称的远程文件，多个文件用逗号隔开

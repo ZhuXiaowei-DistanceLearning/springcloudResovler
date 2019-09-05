@@ -14,6 +14,10 @@
 2. ![1566307479418](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566307479418.png)
 3. ![1566307541474](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566307541474.png)
 
+### 1.3 Rest API
+
+![1567673120211](SpringCloud教程.assets/1567673120211.png)
+
 ## 2.Zuul
 
 1. 简介
@@ -558,6 +562,22 @@
 4. ![1566563655809](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566563655809.png)
 5. ![1566563669046](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566563669046.png)
 
+### 5.6 Turbine 聚合监控数据
+
+1. 简介
+
+   1. 是一个聚合Hystrix监控数据的工具，它可将所有相关hystrix.stream端点的数据聚合到一个组合的/turbine.stream中，而让集群的监控更加方便
+
+2. ```yml
+   turbine:
+     aggregator:
+       cluster-config: default
+     app-config: seckill-service
+     cluster-name-expression: new String("default")
+   ```
+
+   
+
 ## 6.Feign
 
 1. 简介
@@ -570,7 +590,11 @@
    6. 支持Ribbon的负载均衡
    7. 支持HTTP请求和响应的压缩,整合了Ribbon和Hystrix
 
-2. 开启GZIP压缩
+2. 注解剖析
+
+   1. ![1567679716106](SpringCloud教程.assets/1567679716106.png)
+
+3. 开启GZIP压缩
 
    1. ```yml
       feign:
@@ -585,16 +609,16 @@
 
       ![1566481604560](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481604560.png)
 
-3. 属性文件配置
+4. 属性文件配置
 
    1. ![1566481624772](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481624772.png)
    2. ![1566481650941](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481650941.png)
 
-4. 开启日志
+5. 开启日志
 
    1. ![1566481699420](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481699420.png)
 
-5. 超时设置
+6. 超时设置
 
    1. Feign的调用分两层，即Ribbono的调用和Hystrix的调用，高版本的Hystrix默认是关闭的![1566481748576](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481748576.png)
    2. ![1566481762013](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481762013.png)
@@ -1332,7 +1356,7 @@
 
 ## 12. 微服务之存储
 
-##  13.Nacos
+## 13.Nacos
 
 1. 简介
    1. Nacos 致力于帮助您发现、配置和管理微服务。
@@ -1444,20 +1468,20 @@
 3. 返回布尔值方式定义资源
 
    1. ```java
-       // 资源名可使用任意有业务语义的字符串
-        if (SphO.entry("自定义资源名")) {
-          // 务必保证finally会被执行
-          try {
-            /**
-            * 被保护的业务逻辑
-            */
-          } finally {
-            SphO.exit();
-          }
-        } else {
-          // 资源访问阻止，被限流或被降级
-          // 进行相应的处理操作
-        }
+      // 资源名可使用任意有业务语义的字符串
+       if (SphO.entry("自定义资源名")) {
+         // 务必保证finally会被执行
+         try {
+           /**
+           * 被保护的业务逻辑
+           */
+         } finally {
+           SphO.exit();
+         }
+       } else {
+         // 资源访问阻止，被限流或被降级
+         // 进行相应的处理操作
+       }
       ```
 
 4. 注解方式定义资源
@@ -1595,4 +1619,118 @@
       1. 规则管理：您可以在控制台通过接入端暴露的 [HTTP API](https://github.com/alibaba/Sentinel/wiki/如何使用#查询更改规则) 来查询规则。
    3. Pull模式
    4. Push模式
+
+## 15.Spring Cloud Bus
+
+## 16.Spring Cloud Sleuth
+
+1. 简介
+   1. 服务跟踪
+
+### 16.2 ZipKin与Seluth配合使用
+
+1. 简介
+
+   1. 分布式跟踪系统，收集系统的时序数据，从而追踪微服务架构的系统延时等问题
+
+2. 使用
+
+   1. ![1567674167560](SpringCloud教程.assets/1567674167560.png)
+
+   2. springboot2.0以后使用方式
+
+   3. ```xml
+       		<dependency>
+                  <groupId>org.springframework.cloud</groupId>
+                  <artifactId>spring-cloud-starter-sleuth</artifactId>
+              </dependency>
+              <dependency>
+                  <groupId>org.springframework.cloud</groupId>
+                  <artifactId>spring-cloud-sleuth-zipkin</artifactId>
+              </dependency>
+              <dependency>
+                  <groupId>org.springframework.cloud</groupId>
+                  <artifactId>spring-cloud-starter-zipkin</artifactId>
+              </dependency>
+      ```
+
+   4. ```yml
+      spring:
+        zipkin:
+          base-url: http://localhost:9411
+          enabled: true
+        sleuth:
+          web:
+            client:
+              enabled: true
+          sampler:
+            probability: 1.0  #zipkin采集率  0.1表示 10%采集率
+        application:
+          name: zipkin-client
+      ```
+
+   5. ui界面通过java包启动
+
+
+
+## 17.Spring Cloud Config
+
+1. 简介
+
+   1. Open API
+   2. 业务无关性
+   3. 配置生效监控
+   4. 统一配置实时推送
+   5. 配合灰度与更新
+   6. 配置全局恢复、备份与历史
+   7. 高可用就请你
+   8. 集中化外部配置的分布式系统，由服务端和客户端组成，它不依赖与注册中心，是一个独立的配置中心
+
+2. 映射关系
+
+   1. ![1567686041448](SpringCloud教程.assets/1567686041448.png)![1567686047640](SpringCloud教程.assets/1567686047640.png)
+   2. application是应用名，git的文件名。profile指的是对应激活的环境名，例如dev、test、prod等，label指的是git的分支，如果不写，默认为master
+
+3. 服务端配置
+
+   1. ```yml
+      server:
+        port: 9090
+      spring:
+        cloud:
+          config:
+            server:
+              git:
+                uri: https://gitee.com/xiaowei_zxw/springcloud-Learn.git
+                username: 502513206@qq.com
+                password: a520201314
+                # 仓库路径
+                search-paths: SC-BOOK-CONFIG
+        application:
+          name: config-server
+      ```
+
+4. 客户端配置
+
+   1. ```yml
+      server:
+        port: 9091
+      spring:
+        application:
+          name: config-client
+        cloud:
+          config:
+            label: master # 请求哪个分支
+            url: http://localhost:9090 # 请求server的地址
+            profile: dev # 代表哪个分支的文件，例如dev
+            name: config-into # 请求哪个名称的远程文件，多个文件用逗号隔开
+      ```
+
+5. 刷新配置文件
+
+   1. 
+
+## 18.Spring boot Admin
+
+## 19.Spring Cloud Oauth2
 
