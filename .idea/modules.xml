@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/ch18-1-gateway/ch18-1-gateway.iml" filepath="$PROJECT_DIR$/ch18-1-gateway/ch18-1-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch18-1-provider/ch18-1-provider.iml" filepath="$PROJECT_DIR$/ch18-1-provider/ch18-1-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-service/client-service.iml" filepath="$PROJECT_DIR$/client-service/client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cnofig-test/cnofig-test.iml" filepath="$PROJECT_DIR$/cnofig-test/cnofig-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-peer1/eureka-server-peer1.iml" filepath="$PROJECT_DIR$/eureka-server-peer1/eureka-server-peer1.iml" />

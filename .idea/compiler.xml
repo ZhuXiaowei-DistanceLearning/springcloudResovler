@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
         <module name="ch18-1-provider" />
+        <module name="cnofig-test" />
         <module name="eureka-server-peer3" />
         <module name="eureka-server-peer2" />
         <module name="hystrix-service" />
@@ -16,20 +18,19 @@
         <module name="eureka-client" />
         <module name="my-eureka" />
         <module name="zuul-server" />
+        <module name="shard-jdbc" />
         <module name="ch18-1-consumers" />
         <module name="feign-client" />
         <module name="swagger-test" />
-        <module name="fangjia-job" />
+        <module name="transaction-mq-service" />
         <module name="ribbon-server" />
-        <module name="jiqun" />
-        <module name="gateway-https" />
-        <module name="eureka-server" />
+        <module name="fangjia-job" />
         <module name="eureka-server-peer1" />
         <module name="client-service" />
         <module name="eureka-zone1a" />
         <module name="guava-Test" />
-        <module name="shard-jdbc" />
-        <module name="transaction-mq-service" />
+        <module name="gateway-https" />
+        <module name="jiqun" />
         <module name="ch18-1-gateway" />
         <module name="my-feign" />
       </profile>
@@ -41,6 +42,7 @@
       <module name="ch18-1-gateway" target="1.8" />
       <module name="ch18-1-provider" target="1.8" />
       <module name="client-service" target="1.8" />
+      <module name="cnofig-test" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server-peer1" target="1.8" />
@@ -72,6 +74,7 @@
       <module name="ch18-1-gateway" options="-parameters" />
       <module name="ch18-1-provider" options="-parameters" />
       <module name="client-service" options="-parameters" />
+      <module name="cnofig-test" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server-peer1" options="-parameters" />

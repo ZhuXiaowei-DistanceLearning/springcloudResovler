@@ -2,124 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e97da9d9-4e56-46b7-ba7b-0f34189b71eb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_nacos_config_spring_boot_autoconfigure_0_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_nacos_config_spring_boot_starter_0_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_nacos_discovery_spring_boot_autoconfigure_0_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_nacos_discovery_spring_boot_starter_0_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_nacos_spring_boot_base_0_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_spring_context_0_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_java6_2_3_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_shardingsphere_sharding_core_3_0_0_M3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_shardingsphere_sharding_jdbc_3_0_0_M3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_shardingsphere_sharding_jdbc_spring_boot_starter_3_0_0_M3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_42.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_indy_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-nacos/al-nacos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-nacos/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/NacosApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/al-nacos/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-sentinel/ali-sentinel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-sentinel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-sentinel/src/main/java/com/zxw/SentinelApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fangjia-job/demo.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fangjia-job/src/main/java/com/fangjia/job/CustomJobExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fangjia-job/src/main/java/com/fangjia/job/DingDingMessageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fangjia-job/src/main/java/com/fangjia/job/JobApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fangjia-job/src/main/java/com/fangjia/job/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fangjia-job/src/main/java/com/fangjia/job/MessageElasticJobListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fangjia-job/src/main/java/com/fangjia/job/MyDataflowJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fangjia-job/src/main/java/com/fangjia/job/MySimpleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fangjia-job/src/main/java/com/zxw/job/MyElasticJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fangjia-job/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/shard-jdbc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/JdbcApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/config/DuridConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/config/ShardingMasterSlaveConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/config/SingleKeyDbShardingAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/config/UserSingleKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/src/main/java/com/zxw/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/src/main/resources/mybatis/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shard-jdbc/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_8_0_201706111038_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnofig-test/cnofig-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnofig-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnofig-test/src/main/java/com/zxw/ConfigGitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnofig-test/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-service/target/classes/META-INF/client-service.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/client-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-peer1/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-peer1/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-peer2/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-peer2/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-peer3/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-peer3/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fangjia-job/fangjia-job.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fangjia-job/fangjia-job.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fangjia-job/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fangjia-job/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fangjia-job/src/main/java/com/zxw/JobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fangjia-job/src/main/java/com/zxw/JobApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fangjia-job/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/controller/ConfigController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/al-nacos/target/classes/com/zxw/NacosApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/al-nacos/target/classes/com/zxw/controller/ConfigController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger-test/target/classes/META-INF/swagger-test.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger-test/target/classes/com/zxw/swagger/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/swagger-test/target/classes/com/zxw/swagger/controller/HelloController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -149,6 +64,7 @@
     <ignored path="$PROJECT_DIR$/shard-jdbc/target/" />
     <ignored path="$PROJECT_DIR$/al-nacos/target/" />
     <ignored path="$PROJECT_DIR$/ali-sentinel/target/" />
+    <ignored path="$PROJECT_DIR$/cnofig-test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,46 +89,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fangjia-job/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="36" column="94" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fangjia-job/src/main/java/com/fangjia/job/MyDataflowJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fangjia-job/src/main/java/com/fangjia/job/MySimpleJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fangjia-job/src/main/java/com/fangjia/job/MessageElasticJobListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/al-nacos/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
+            <state relative-caret-position="625">
               <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
             </state>
           </provider>
@@ -228,14 +108,57 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ali-sentinel/src/main/java/com/zxw/SentinelApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="993">
-              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+            <state relative-caret-position="800">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnofig-test/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="784">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnofig-test/src/main/java/com/zxw/ConfigGitApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cnofig-test/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -252,7 +175,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/NacosApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="275">
               <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -264,7 +187,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/controller/ConfigController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="275">
               <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -304,9 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/swagger-test/src/main/java/com/zxw/swagger/SwaggerTest.java" />
-        <option value="$PROJECT_DIR$/swagger-test/src/main/java/com/zxw/swagger/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/swagger-test/src/main/java/com/zxw/swagger/config/WebMvcConfigurerConfig.java" />
         <option value="$PROJECT_DIR$/swagger-test/src/main/java/com/zxw/swagger/config/WebSecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/swagger-test/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/swagger-test/pom.xml" />
@@ -314,7 +234,6 @@
         <option value="$PROJECT_DIR$/jiqun/pom.xml" />
         <option value="$PROJECT_DIR$/jiqun/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jiqun/src/main/java/com/zxw/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/guava-Test/src/main/java/com/zxw/config/pojo/Person.java" />
         <option value="$PROJECT_DIR$/guava-Test/pom.xml" />
         <option value="$PROJECT_DIR$/guava-Test/src/main/java/com/zxw/config/mapper/PersonRepositroy.java" />
@@ -355,6 +274,10 @@
         <option value="$PROJECT_DIR$/al-nacos/pom.xml" />
         <option value="$PROJECT_DIR$/ali-sentinel/pom.xml" />
         <option value="$PROJECT_DIR$/ali-sentinel/src/main/java/com/zxw/SentinelApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cnofig-test/pom.xml" />
+        <option value="$PROJECT_DIR$/cnofig-test/src/main/java/com/zxw/ConfigGitApplication.java" />
+        <option value="$PROJECT_DIR$/cnofig-test/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -377,16 +300,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="al-nacos" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cnofig-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="al-nacos" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="al-nacos" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cnofig-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
@@ -415,6 +333,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -422,12 +342,53 @@
               <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cnofig-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cnofig-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cnofig-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cnofig-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cnofig-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zxw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="cnofig-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -483,7 +444,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SentinelApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigGitApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -506,20 +467,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bloom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zxw.redis.bloom" />
-      <module name="guava-Test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zxw.redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -598,6 +545,19 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigGitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cnofig-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxw.ConfigGitApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -724,6 +684,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwaggerTest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="swagger-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxw.swagger.SwaggerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="clientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxw.clientApplication" />
@@ -766,7 +733,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.bloom" />
+      <item itemvalue="Application.SentinelApplication" />
       <item itemvalue="Spring Boot.clientApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.peerApplication" />
@@ -777,20 +744,21 @@
       <item itemvalue="Spring Boot.HystrixDashboardApplication" />
       <item itemvalue="Spring Boot.SpringCloudFeignApplication" />
       <item itemvalue="Spring Boot.JdbcApplication" />
-      <item itemvalue="Spring Boot.JobApplication (1)" />
       <item itemvalue="Spring Boot.SpringCloudGatewayApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
+      <item itemvalue="Spring Boot.JobApplication (1)" />
       <item itemvalue="Spring Boot.NacosConfigApplication (1)" />
       <item itemvalue="Spring Boot.NacosApplication" />
-      <item itemvalue="Spring Boot.ProviderApplication" />
-      <item itemvalue="Application.SentinelApplication" />
+      <item itemvalue="Spring Boot.SwaggerTest" />
+      <item itemvalue="Spring Boot.ConfigGitApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigGitApplication" />
         <item itemvalue="Application.SentinelApplication" />
         <item itemvalue="Spring Boot.NacosApplication" />
         <item itemvalue="Spring Boot.NacosConfigApplication (1)" />
         <item itemvalue="Spring Boot.JobApplication (1)" />
-        <item itemvalue="Application.bloom" />
       </list>
     </recent_temporary>
   </component>
@@ -837,11 +805,14 @@
       <workItem from="1567510261508" duration="2028000" />
       <workItem from="1567566150317" duration="206000" />
       <workItem from="1567599265471" duration="5210000" />
+      <workItem from="1567646985975" duration="153000" />
+      <workItem from="1567672208893" duration="662000" />
+      <workItem from="1567684720654" duration="1852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80429000" />
+    <option name="totallyTimeSpent" value="83096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -854,8 +825,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40809628" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.42669585" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -879,7 +851,7 @@
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32628062" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.36782902" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.36782902" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
@@ -891,7 +863,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Properties" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
-      <window_info anchor="right" id="Maven" order="11" weight="0.26066098" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.2603939" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -954,26 +926,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guava-Test/src/main/java/com/zxw/mapper/PersonRepositroy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava-Test/src/main/java/com/zxw/controller/PersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1041,14 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2500">
-          <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1247,6 +1191,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/NacosConfigApplication.java" />
     <entry file="file://$PROJECT_DIR$/fangjia-job/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -1275,56 +1220,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/al-nacos/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/NacosConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/NacosConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/controller/ConfigController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/NacosApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/al-nacos/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
+        <state relative-caret-position="625">
           <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
@@ -1339,11 +1238,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ali-sentinel/src/main/java/com/zxw/SentinelApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="993">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        <state relative-caret-position="800">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/al-nacos/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/NacosApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/al-nacos/src/main/java/com/zxw/controller/ConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnofig-test/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnofig-test/src/main/java/com/zxw/ConfigGitApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnofig-test/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>

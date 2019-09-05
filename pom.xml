@@ -40,6 +40,7 @@
         <module>shard-jdbc</module>
         <module>al-nacos</module>
         <module>ali-sentinel</module>
+        <module>cnofig-test</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
