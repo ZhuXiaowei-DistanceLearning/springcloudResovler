@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Sleuth-A/Sleuth-A.iml" filepath="$PROJECT_DIR$/Sleuth-A/Sleuth-A.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sleuth-B/Sleuth-B.iml" filepath="$PROJECT_DIR$/Sleuth-B/Sleuth-B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-client/admin-client.iml" filepath="$PROJECT_DIR$/admin-client/admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/admin-server/admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/al-nacos/al-nacos.iml" filepath="$PROJECT_DIR$/al-nacos/al-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/ali-sentinel/ali-sentinel.iml" filepath="$PROJECT_DIR$/ali-sentinel/ali-sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch18-1-consumers/ch18-1-consumers.iml" filepath="$PROJECT_DIR$/ch18-1-consumers/ch18-1-consumers.iml" />
@@ -30,6 +32,8 @@
       <module fileurl="file://$PROJECT_DIR$/my-springcloud.iml" filepath="$PROJECT_DIR$/my-springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-server/ribbon-server.iml" filepath="$PROJECT_DIR$/ribbon-server/ribbon-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/shard-jdbc/shard-jdbc.iml" filepath="$PROJECT_DIR$/shard-jdbc/shard-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-jwt/sso-jwt.iml" filepath="$PROJECT_DIR$/sso-jwt/sso-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-hello/stream-hello.iml" filepath="$PROJECT_DIR$/stream-hello/stream-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/swagger-test/swagger-test.iml" filepath="$PROJECT_DIR$/swagger-test/swagger-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/transaction-mq-service/transaction-mq-service.iml" filepath="$PROJECT_DIR$/transaction-mq-service/transaction-mq-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/zipkin-server/zipkin-server.iml" filepath="$PROJECT_DIR$/zipkin-server/zipkin-server.iml" />

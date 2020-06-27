@@ -4,15 +4,15 @@
 
 ### 1.1 Client端
 
-1. ![1566307391459](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566307391459.png)
-2. ![1566307429515](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566307429515.png)
-3. ![1566307437933](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566307437933.png)
+1. ![1566307391459](./SpringCloud教程.assets\1566307391459.png)
+2. ![1566307429515](./SpringCloud教程.assets\1566307429515.png)
+3. ![1566307437933](./SpringCloud教程.assets\1566307437933.png)
 
 ### 1.2 Server端
 
-1. ![1566307463470](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566307463470.png)
-2. ![1566307479418](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566307479418.png)
-3. ![1566307541474](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566307541474.png)
+1. ![1566307463470](./SpringCloud教程.assets\1566307463470.png)
+2. ![1566307479418](./SpringCloud教程.assets\1566307479418.png)
+3. ![1566307541474](./SpringCloud教程.assets\1566307541474.png)
 
 ### 1.3 Rest API
 
@@ -34,7 +34,7 @@
       2. route:请求时被调用，适用灰度发布场景
       3. post:在route和error之后被调用，将请求路由到达具体的服务之后执行。适用于需要添加响应头，记录响应日志等场景
       4. error:处理请求时发生错误时被调用。在执行过程中发送错误时会进入error过滤器。
-      5. ![1566386001738](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566386001738.png)
+      5. ![1566386001738](./SpringCloud教程.assets\1566386001738.png)
 
 2. 典型配置
 
@@ -116,7 +116,7 @@
       /?
       ```
 
-      ![1566388557106](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566388557106.png)
+      ![1566388557106](./SpringCloud教程.assets\1566388557106.png)
 
 3. 功能配置
 
@@ -184,7 +184,7 @@
 
 4. 容错机制
 
-   1. ![1566386680753](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566386680753.png)
+   1. ![1566386680753](./SpringCloud教程.assets\1566386680753.png)
 
 5. 回退机制
 
@@ -193,13 +193,13 @@
 
 6. 高可用
 
-   1. ![1566386825225](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566386825225.png)
+   1. ![1566386825225](./SpringCloud教程.assets\1566386825225.png)
 
 7. zuul+OAuth2.0+JWT
 
    1. OAuth2.0面向资源授权协议
-   2. ![1566390145458](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566390145458.png)
-   3. ![1566390189521](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566390189521.png)
+   2. ![1566390145458](./SpringCloud教程.assets\1566390145458.png)
+   3. ![1566390189521](./SpringCloud教程.assets\1566390189521.png)
    4. @EnableOAuth2Sso
 
 8. zuul限流
@@ -210,7 +210,7 @@
 
 9. 动态路由
 
-   1. ![1566391286396](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566391286396.png)
+   1. ![1566391286396](./SpringCloud教程.assets\1566391286396.png)
 
 10. 灰度发布
 
@@ -230,8 +230,8 @@
 
 12. 请求体修改
 
-    1. ![1566391877126](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566391877126.png)
-    2. ![1566391917221](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566391917221.png)
+    1. ![1566391877126](./SpringCloud教程.assets\1566391877126.png)
+    2. ![1566391917221](./SpringCloud教程.assets\1566391917221.png)
 
 13. 使用okhttp替换HttpClient
 
@@ -287,9 +287,9 @@
 
 ### 2.1 多层负载
 
-1. ![1566392851162](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566392851162.png)
-2. ![1566392870314](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566392870314.png)
-3. ![1566392878747](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566392878747.png)
+1. ![1566392851162](./SpringCloud教程.assets\1566392851162.png)
+2. ![1566392870314](./SpringCloud教程.assets\1566392870314.png)
+3. ![1566392878747](./SpringCloud教程.assets\1566392878747.png)
 
 ### 2.2 应用优化
 
@@ -306,13 +306,13 @@
    3. 断言:java8中的断言函数。
    4. 过滤器:一个标准的Spring webFilter。springcloudgateway中的filter分为两种Gateway Filter和Global Filter
 2. 工作流程图
-   1. ![1566393822831](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566393822831.png)
+   1. ![1566393822831](./SpringCloud教程.assets\1566393822831.png)
 
 ### 3.1 路由断言
 
 1. After路由断言工厂
 
-   1. ![1566564519911](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566564519911.png)
+   1. ![1566564519911](./SpringCloud教程.assets\1566564519911.png)
 
    2. ```yml
       spring:
@@ -328,7 +328,7 @@
 
 2. Before路由断言工厂
 
-   1. ![1566565079121](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565079121.png)
+   1. ![1566565079121](./SpringCloud教程.assets\1566565079121.png)
 
    2. ```yml
       spring:
@@ -343,7 +343,7 @@
 
 3. Between路由断言工厂
 
-   1. ![1566565157340](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565157340.png)
+   1. ![1566565157340](./SpringCloud教程.assets\1566565157340.png)
 
    2. ```yml
       spring:
@@ -361,7 +361,7 @@
 
 4. Cokkie路由断言工厂
 
-   1. ![1566565298822](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565298822.png)
+   1. ![1566565298822](./SpringCloud教程.assets\1566565298822.png)
 
    2. ```yml
       spring:
@@ -376,46 +376,46 @@
 
 5. Header路由断言工厂
 
-   1. ![1566565365066](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565365066.png)
-   2. ![1566565378454](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565378454.png)
+   1. ![1566565365066](./SpringCloud教程.assets\1566565365066.png)
+   2. ![1566565378454](./SpringCloud教程.assets\1566565378454.png)
 
 6. Host路由断言工厂
 
-   1. ![1566565394425](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565394425.png)
-   2. ![1566565403194](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565403194.png)
+   1. ![1566565394425](./SpringCloud教程.assets\1566565394425.png)
+   2. ![1566565403194](./SpringCloud教程.assets\1566565403194.png)
 
 7. method路由断言工厂
 
-   1. ![1566565412346](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565412346.png)
+   1. ![1566565412346](./SpringCloud教程.assets\1566565412346.png)
 
 8. Query路由断言工厂
 
-   1. ![1566565444227](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565444227.png)
-   2. ![1566565453674](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565453674.png)
+   1. ![1566565444227](./SpringCloud教程.assets\1566565444227.png)
+   2. ![1566565453674](./SpringCloud教程.assets\1566565453674.png)
 
 9. RemoteAddr路由断言工厂
 
-   1. ![1566565473935](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565473935.png)
+   1. ![1566565473935](./SpringCloud教程.assets\1566565473935.png)
 
 ### 3.2 Gateway的内置Filter
 
 1. addRequestHeader过滤器工厂
    1. 使用java流式API配置路由的配置
-   2. ![1566565544288](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565544288.png)
+   2. ![1566565544288](./SpringCloud教程.assets\1566565544288.png)
 2. addRequestParameter过滤器
    1. 对匹配上的请求路由添加请求参数
-   2. ![1566565607768](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565607768.png)![1566565611837](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565611837.png)
+   2. ![1566565607768](./SpringCloud教程.assets\1566565607768.png)![1566565611837](./SpringCloud教程.assets\1566565611837.png)
 3. RewritePath过滤器
-   1. ![1566565635329](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565635329.png)
-   2. ![1566565677790](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565677790.png)
+   1. ![1566565635329](./SpringCloud教程.assets\1566565635329.png)
+   2. ![1566565677790](./SpringCloud教程.assets\1566565677790.png)
 4. AddResponseHeader过滤器
-   1. ![1566565695457](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565695457.png)
+   1. ![1566565695457](./SpringCloud教程.assets\1566565695457.png)
 5. StripPrefix过滤器
-   1. ![1566565712912](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565712912.png)
+   1. ![1566565712912](./SpringCloud教程.assets\1566565712912.png)
 6. Retry过滤器
-   1. ![1566565776530](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565776530.png)
+   1. ![1566565776530](./SpringCloud教程.assets\1566565776530.png)
 7. Hystrix过滤器
-   1. ![1566565818827](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566565818827.png)
+   1. ![1566565818827](./SpringCloud教程.assets\1566565818827.png)
 
 ### 3.3 权重路由
 
@@ -467,11 +467,11 @@
    4. 限流：秒杀、抢购、写服务(如评论、下单)频繁的复杂查询,通过对并发访问/请求进行限速或者对一个时间窗口内的请求进行限速来保护系统，一旦达到限制速率可以拒绝服务、排队或等待、降级
    5. 两种限流模式：控制速率和控制并发
 2. 自定义过滤器实现限流
-   1. ![1566575500589](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566575500589.png)
+   1. ![1566575500589](./SpringCloud教程.assets\1566575500589.png)
 3. 内置过滤器工厂限流
-   1. ![1566575577204](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566575577204.png)
+   1. ![1566575577204](./SpringCloud教程.assets\1566575577204.png)
 4. 基于CPU的使用率进行限流
-   1. ![1566575601256](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566575601256.png)
+   1. ![1566575601256](./SpringCloud教程.assets\1566575601256.png)
 5. 动态路由
 
 ## 4.Ribbon
@@ -480,13 +480,13 @@
 
    1. 集中式负载均衡
    2. 进程式负载均衡:从实例库选取一个实例进行流量导入，客户端负载均衡
-   3. ![1566473904315](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566473904315.png)
+   3. ![1566473904315](./SpringCloud教程.assets\1566473904315.png)
 
 2. 负载均衡策略
 
-   1. ![1566475901062](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566475901062.png)
+   1. ![1566475901062](./SpringCloud教程.assets\1566475901062.png)
 
-   2. ![1566475912745](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566475912745.png)
+   2. ![1566475912745](./SpringCloud教程.assets\1566475912745.png)
 
    3. 饥饿加载
 
@@ -499,68 +499,68 @@
 
    4. 利用配置文件自定义Ribbon
 
-      1. ![1566476918325](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566476918325.png)
+      1. ![1566476918325](./SpringCloud教程.assets\1566476918325.png)
 
 ### 4.1 核心工作原理
 
-1. ![1566476969959](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566476969959.png)
+1. ![1566476969959](./SpringCloud教程.assets\1566476969959.png)
 
 ## 5.Hystrix
 
 1. 定义
-   1. ![1566477524140](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566477524140.png)
+   1. ![1566477524140](./SpringCloud教程.assets\1566477524140.png)
    2. 通过客户端库对延迟和故障进行保护和控制
    3. 在一个复杂的分布式系统中停止级联故障
    4. 快速失败和迅速恢复
    5. 在合理的情况下回退和优雅地降级
    6. 开启近实时监控、告警和操作控制
-2. ![1566561508615](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566561508615.png)
-3. ![1566561528586](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566561528586.png)
-4. ![1566561556478](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566561556478.png)
+2. ![1566561508615](./SpringCloud教程.assets\1566561508615.png)
+3. ![1566561528586](./SpringCloud教程.assets\1566561528586.png)
+4. ![1566561556478](./SpringCloud教程.assets\1566561556478.png)
 
 ### 5.1 Hystrix配置说明
 
-1. ![1566561585032](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566561585032.png)
-2. ![1566561594736](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566561594736.png)
+1. ![1566561585032](./SpringCloud教程.assets\1566561585032.png)
+2. ![1566561594736](./SpringCloud教程.assets\1566561594736.png)
 
 ### 5.2 Hystrix线程调整和计算
 
-1. ![1566561650295](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566561650295.png)
+1. ![1566561650295](./SpringCloud教程.assets\1566561650295.png)
 
 ### 5.3 请求缓存
 
-1. ![1566561674399](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566561674399.png)
-2. ![1566561688246](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566561688246.png)
+1. ![1566561674399](./SpringCloud教程.assets\1566561674399.png)
+2. ![1566561688246](./SpringCloud教程.assets\1566561688246.png)
 3. 使用类开启缓存
-   1. ![1566561706618](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566561706618.png)
+   1. ![1566561706618](./SpringCloud教程.assets\1566561706618.png)
 4. 使用注解开启缓存
-   1. ![1566561727494](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566561727494.png)
+   1. ![1566561727494](./SpringCloud教程.assets\1566561727494.png)
 5. 使用注解清除缓存
-   1. ![1566561743755](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566561743755.png)
-6. ![1566561752072](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566561752072.png)
+   1. ![1566561743755](./SpringCloud教程.assets\1566561743755.png)
+6. ![1566561752072](./SpringCloud教程.assets\1566561752072.png)
 
 ### 5.4 Hystrix Request Collapser
 
-![1566562526785](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566562526785.png)
+![1566562526785](./SpringCloud教程.assets\1566562526785.png)
 
 1. 使用注解进行请求合并
-   1. ![1566562621066](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566562621066.png)
-   2. ![1566562628294](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566562628294.png)
-   3. ![1566562711795](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566562711795.png)
-   4. ![1566562722170](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566562722170.png)
-   5. ![1566562731512](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566562731512.png)
-   6. ![1566562856184](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566562856184.png)
+   1. ![1566562621066](./SpringCloud教程.assets\1566562621066.png)
+   2. ![1566562628294](./SpringCloud教程.assets\1566562628294.png)
+   3. ![1566562711795](./SpringCloud教程.assets\1566562711795.png)
+   4. ![1566562722170](./SpringCloud教程.assets\1566562722170.png)
+   5. ![1566562731512](./SpringCloud教程.assets\1566562731512.png)
+   6. ![1566562856184](./SpringCloud教程.assets\1566562856184.png)
 2. Hystrix线程传递及并发策略
-   1. ![1566563412102](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566563412102.png)
-   2. ![1566563439223](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566563439223.png)
+   1. ![1566563412102](./SpringCloud教程.assets\1566563412102.png)
+   2. ![1566563439223](./SpringCloud教程.assets\1566563439223.png)
 
 ### 5.5 Hystrix命令注解
 
-1. ![1566563615458](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566563615458.png)
-2. ![1566563629198](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566563629198.png)
-3. ![1566563637874](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566563637874.png)
-4. ![1566563655809](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566563655809.png)
-5. ![1566563669046](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566563669046.png)
+1. ![1566563615458](./SpringCloud教程.assets\1566563615458.png)
+2. ![1566563629198](./SpringCloud教程.assets\1566563629198.png)
+3. ![1566563637874](./SpringCloud教程.assets\1566563637874.png)
+4. ![1566563655809](./SpringCloud教程.assets\1566563655809.png)
+5. ![1566563669046](./SpringCloud教程.assets\1566563669046.png)
 
 ### 5.6 Turbine 聚合监控数据
 
@@ -607,57 +607,57 @@
       			enable: true # 配置响应GZIP压缩
       ```
 
-      ![1566481604560](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481604560.png)
+      ![1566481604560](./SpringCloud教程.assets\1566481604560.png)
 
 4. 属性文件配置
 
-   1. ![1566481624772](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481624772.png)
-   2. ![1566481650941](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481650941.png)
+   1. ![1566481624772](./SpringCloud教程.assets\1566481624772.png)
+   2. ![1566481650941](./SpringCloud教程.assets\1566481650941.png)
 
 5. 开启日志
 
-   1. ![1566481699420](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481699420.png)
+   1. ![1566481699420](./SpringCloud教程.assets\1566481699420.png)
 
 6. 超时设置
 
-   1. Feign的调用分两层，即Ribbono的调用和Hystrix的调用，高版本的Hystrix默认是关闭的![1566481748576](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481748576.png)
-   2. ![1566481762013](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481762013.png)
+   1. Feign的调用分两层，即Ribbono的调用和Hystrix的调用，高版本的Hystrix默认是关闭的![1566481748576](./SpringCloud教程.assets\1566481748576.png)
+   2. ![1566481762013](./SpringCloud教程.assets\1566481762013.png)
 
 ### 6.1 Feign默认Client的替换
 
 1. 默认使用URLConnection发送HTTP请求，没有连接池，但是对每一个地址会保持长连接
 2. 使用httpClient替换
-   1. 导入![1566481918333](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481918333.png)
-   2. ![1566481926090](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481926090.png)
+   1. 导入![1566481918333](./SpringCloud教程.assets\1566481918333.png)
+   2. ![1566481926090](./SpringCloud教程.assets\1566481926090.png)
 3. 使用okhttp替换
-   1. ![1566481942427](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481942427.png)
-   2. ![1566481951817](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481951817.png)
-   3. ![1566481970679](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566481970679.png)
+   1. ![1566481942427](./SpringCloud教程.assets\1566481942427.png)
+   2. ![1566481951817](./SpringCloud教程.assets\1566481951817.png)
+   3. ![1566481970679](./SpringCloud教程.assets\1566481970679.png)
 
 ### 6.2 Feign的Post和Get的多参数传递
 
-1. ![1566482085435](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566482085435.png)
+1. ![1566482085435](./SpringCloud教程.assets\1566482085435.png)
 
 ### 6.3 文件上传
 
-1. ![1566482112576](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566482112576.png)
+1. ![1566482112576](./SpringCloud教程.assets\1566482112576.png)
 
 ### 6.4 首次请求失败问题
 
-1. ![1566482163677](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566482163677.png)
+1. ![1566482163677](./SpringCloud教程.assets\1566482163677.png)
 
 ### 6.5 返回图片流处理方式
 
-1. ![1566482214765](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566482214765.png)
+1. ![1566482214765](./SpringCloud教程.assets\1566482214765.png)
 
 ### 6.5 Feign调用传递Toekn
 
-1. ![1566482231428](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566482231428.png)
-2. ![1566482241541](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566482241541.png)
+1. ![1566482231428](./SpringCloud教程.assets\1566482231428.png)
+2. ![1566482241541](./SpringCloud教程.assets\1566482241541.png)
 
 ### 6.6 venus-cloud-feign 设计与使用
 
-1. ![1566559916378](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1566559916378.png)
+1. ![1566559916378](./SpringCloud教程.assets\1566559916378.png)
 
 ## 7. 分布式事务解决方案
 
@@ -708,7 +708,7 @@
 
          例如：3台服务器，分成10片，则分片项分配结果为服务器A=0,1,2;服务器B=3,4,5;服务器C=6,7,8,9。 如果服务器C崩溃，则分片项分配结果为服务器A=0,1,2,3,4;服务器B=5,6,7,8,9。在不丢失分片项的情况下，最大限度的利用现有资源提高吞吐量。
 
-3. 架构图![1567426122646](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1567426122646.png)
+3. 架构图![1567426122646](./SpringCloud教程.assets\1567426122646.png)
 
 ### 8.2 作业开发
 
@@ -718,15 +718,15 @@
 
 ### 8.3 配置文件
 
-1. ![1567509352068](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1567509352068.png)
+1. ![1567509352068](./SpringCloud教程.assets\1567509352068.png)
 2. 作业配置
-   1. ![1567509362786](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1567509362786.png)
-   2. ![1567509374869](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1567509374869.png)
+   1. ![1567509362786](./SpringCloud教程.assets\1567509362786.png)
+   2. ![1567509374869](./SpringCloud教程.assets\1567509374869.png)
 3. dataflow 独有配置
-   1. 拥有job:simple所有的空间属性属性![1567510267840](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1567510267840.png)
+   1. 拥有job:simple所有的空间属性属性![1567510267840](./SpringCloud教程.assets\1567510267840.png)
 4. script独有配置
    1. 拥有job:simple所有的空间属性属性
-   2. ![1567510289144](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1567510289144.png)
+   2. ![1567510289144](./SpringCloud教程.assets\1567510289144.png)
 
 ### 8.4 多节点并行调度
 
@@ -1385,7 +1385,7 @@
 
 3. https://github.com/alibaba/Sentinel/wiki/如何使用
 
-   ![1567601581400](C:\Users\zxw\Desktop\个人项目笔记\SpringCloud教程.assets\1567601581400.png)
+   ![1567601581400](./SpringCloud教程.assets\1567601581400.png)
 
 ### 14.1 使用教程
 

@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ali-sentinel" />
         <module name="eureka-server-peer1" />
-        <module name="eureka-zone1a" />
+        <module name="eureka-server-peer3" />
         <module name="Sleuth-B" />
         <module name="gateway-https" />
         <module name="swagger-test" />
+        <module name="sso-jwt" />
         <module name="al-nacos" />
         <module name="my-eureka" />
         <module name="transaction-mq-service" />
@@ -18,28 +20,32 @@
         <module name="zipkin-server" />
         <module name="config-client" />
         <module name="fangjia-job" />
+        <module name="admin-server" />
         <module name="guava-Test" />
         <module name="my-feign" />
         <module name="ch18-1-gateway" />
         <module name="cnofig-test" />
+        <module name="stream-hello" />
         <module name="shard-jdbc" />
         <module name="jiqun" />
         <module name="eureka-server" />
         <module name="hystrix-service" />
         <module name="feign-client" />
-        <module name="ali-sentinel" />
+        <module name="admin-client" />
         <module name="ch18-1-consumers" />
         <module name="ch18-1-provider" />
         <module name="zuul-server" />
         <module name="client-service" />
         <module name="gateway" />
         <module name="ribbon-server" />
-        <module name="eureka-server-peer3" />
+        <module name="eureka-zone1a" />
         <module name="eureka-server-peer2" />
         <module name="eureka-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="admin-client" target="1.8" />
+      <module name="admin-server" target="1.8" />
       <module name="al-nacos" target="1.8" />
       <module name="ali-sentinel" target="1.8" />
       <module name="ch18-1-consumers" target="1.8" />
@@ -54,7 +60,7 @@
       <module name="eureka-server-peer2" target="1.8" />
       <module name="eureka-server-peer3" target="1.8" />
       <module name="eureka-zone1a" target="1.8" />
-      <module name="fangjia-job" target="1.8" />
+      <module name="fangjia-job" target="1.6" />
       <module name="feign-client" target="1.8" />
       <module name="gateway" target="1.8" />
       <module name="gateway-https" target="1.8" />
@@ -68,6 +74,8 @@
       <module name="shard-jdbc" target="1.8" />
       <module name="Sleuth-A" target="1.8" />
       <module name="Sleuth-B" target="1.8" />
+      <module name="sso-jwt" target="1.8" />
+      <module name="stream-hello" target="1.8" />
       <module name="swagger-test" target="1.8" />
       <module name="transaction-mq-service" target="1.8" />
       <module name="zipkin-server" target="1.8" />
@@ -78,6 +86,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Sleuth-A" options="-parameters" />
       <module name="Sleuth-B" options="-parameters" />
+      <module name="admin-client" options="-parameters" />
+      <module name="admin-server" options="-parameters" />
       <module name="al-nacos" options="-parameters" />
       <module name="ali-sentinel" options="-parameters" />
       <module name="ch18-1-consumers" options="-parameters" />
@@ -92,7 +102,6 @@
       <module name="eureka-server-peer2" options="-parameters" />
       <module name="eureka-server-peer3" options="-parameters" />
       <module name="eureka-zone1a" options="-parameters" />
-      <module name="fangjia-job" options="" />
       <module name="feign-client" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="gateway-https" options="-parameters" />
@@ -103,6 +112,8 @@
       <module name="my-feign" options="-parameters" />
       <module name="ribbon-server" options="-parameters" />
       <module name="shard-jdbc" options="-parameters" />
+      <module name="sso-jwt" options="-parameters" />
+      <module name="stream-hello" options="-parameters" />
       <module name="swagger-test" options="-parameters" />
       <module name="transaction-mq-service" options="-parameters" />
       <module name="zipkin-server" options="-parameters" />

@@ -1,2 +1,23 @@
 server:
-  port:
+  port: 8764
+eureka:
+  client:
+    register-with-eureka: true # 注册到eureka中
+    fetch-registry: true # 是否从eureka获取注册信息
+    service-url:
+      zone1: http://localhost:8761/eureka/,http://localhost:8762/eureka/
+      zone2: http://localhost:8763/eureka/,http://localhost:8764/eureka/
+    region: region-east # 指定该应用实例所在的region
+    availability-zones: # 告知Client有哪些region及availability-zones，支持配置修改运行时生效
+      region-east: zone1,zone2
+  instance:
+    prefer-ip-address: true # 使用ip作为地址
+    hostname: localhost
+    metadata-map: # 指定应用实例的元数据信息
+      zone: zone2
+  server:
+    wait-time-in-ms-when-sync-empty: 0 #
+    enable-self-preservation: false # 是否开启自我保护模式
+spring:
+  application:
+    name: eureka-server

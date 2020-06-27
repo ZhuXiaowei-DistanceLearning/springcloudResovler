@@ -13,7 +13,11 @@ eureka:
   instance:
     prefer-ip-address: true
     hostname: localhost
-    metadata-map: zone: zone1
+    metadata-map:
+      zone: zone1
   server:
     wait-time-in-ms-when-sync-empty: 0
     enable-self-preservation: false
+spring:
+  application:
+    name: netflix-eureka2

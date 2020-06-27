@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: boot-admin-server
+  boot:
+    admin:
+      ui:
+        title: 功能测试
